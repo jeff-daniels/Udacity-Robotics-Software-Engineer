@@ -2,7 +2,7 @@
 <sdf version='1.6'>
   <model name='Vintage_Robot'>
     <link name='link_0_clone'>
-      <pose frame=''>0.15 0 0.1 0 -0 0</pose>
+      <pose frame=''>0.15 -0 0.1 0 -0 0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -33,7 +33,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.4 0.7 1 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -129,7 +129,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.4 0.7 1 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -226,7 +226,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>1 0.2 0.2 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -324,7 +324,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>1 0.2 0.2 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -390,7 +390,7 @@
       </collision>
     </link>
     <link name='link_0_1'>
-      <pose frame=''>0 0 0.925 0 -0 0</pose>
+      <pose frame=''>-0 0 0.925 0 -0 0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -403,7 +403,6 @@
         </inertia>
         <pose frame=''>0 0 0 0 -0 0</pose>
       </inertial>
-      <gravity>1</gravity>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
       <visual name='visual'>
@@ -422,7 +421,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.4 0.7 1 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -487,7 +486,7 @@
       </collision>
     </link>
     <link name='link_0_clone_0'>
-      <pose frame=''>-0.15 0 0.1 0 -0 0</pose>
+      <pose frame=''>-0.15 -0 0.1 0 -0 0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -518,7 +517,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.4 0.7 1 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -583,7 +582,7 @@
       </collision>
     </link>
     <link name='link_0_clone_1'>
-      <pose frame=''>-0.225 0 0.75 -0.7 0 0</pose>
+      <pose frame=''>-0.225 0 0.75 -0.7 -0 -0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -614,7 +613,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.4 0.7 1 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -710,7 +709,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.75 0.75 0.75 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -775,7 +774,7 @@
       </collision>
     </link>
     <link name='link_1_clone'>
-      <pose frame=''>0.110005 0.1 0.05 -1.3e-05 1.5707 -1.3e-05</pose>
+      <pose frame=''>0.120005 0.1 0.05 0.001508 1.5707 0.001508</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -807,7 +806,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>1 0.8 0.6 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -873,7 +872,7 @@
       </collision>
     </link>
     <link name='link_1_clone_0'>
-      <pose frame=''>-0.189995 0.1 0.05 -1.3e-05 1.5707 -1.3e-05</pose>
+      <pose frame=''>-0.179995 0.1 0.05 0.000879 1.5707 0.000879</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -888,6 +887,7 @@
       </inertial>
       <self_collide>0</self_collide>
       <kinematic>0</kinematic>
+      <gravity>1</gravity>
       <visual name='visual'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
@@ -905,7 +905,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>1 0.8 0.6 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -971,7 +971,7 @@
       </collision>
     </link>
     <link name='link_1_clone_0_clone'>
-      <pose frame=''>-0.110005 0.1 0.05 -1.3e-05 1.5707 -1.3e-05</pose>
+      <pose frame=''>-0.120005 0.1 0.05 0.000879 1.5707 0.000879</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -1003,7 +1003,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>1 0.8 0.6 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1100,7 +1100,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.75 0.75 0.75 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1165,7 +1165,7 @@
       </collision>
     </link>
     <link name='link_1_clone_1_clone'>
-      <pose frame=''>-0.2 -0.219034 0.489954 -0.7 0 0</pose>
+      <pose frame=''>-0.2 -0.219034 0.489954 -0.7 -0 -0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -1196,7 +1196,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.75 0.75 0.75 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1261,7 +1261,7 @@
       </collision>
     </link>
     <link name='link_1_clone_2'>
-      <pose frame=''>-0.25 -0.219034 0.489954 -0.7 0 0</pose>
+      <pose frame=''>-0.25 -0.219034 0.489954 -0.7 -0 -0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -1292,7 +1292,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.75 0.75 0.75 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1357,7 +1357,7 @@
       </collision>
     </link>
     <link name='link_1_clone_clone'>
-      <pose frame=''>0.189995 0.1 0.05 -1.3e-05 1.5707 -1.3e-05</pose>
+      <pose frame=''>0.179995 0.1 0.05 0.001508 1.5707 0.001508</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -1389,7 +1389,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>1 0.8 0.6 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1486,7 +1486,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.75 0.75 0.75 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1582,7 +1582,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>1 0.8 0.6 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1678,7 +1678,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>1 0.8 0.6 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1743,7 +1743,7 @@
       </collision>
     </link>
     <link name='link_2_clone_1'>
-      <pose frame=''>-0.225 -0.180381 0.535844 -0.7 0 0</pose>
+      <pose frame=''>-0.225 -0.180381 0.535844 -0.7 -0 -0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -1774,7 +1774,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.75 0.75 0.75 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1870,7 +1870,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.4 0.7 1 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -1966,7 +1966,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.4 0.7 1 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -2031,7 +2031,7 @@
       </collision>
     </link>
     <link name='link_5_clone'>
-      <pose frame=''>0 0 0.65 0 -0 0</pose>
+      <pose frame=''>-0 -0 0.65 0 -0 0</pose>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -2062,7 +2062,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.3 0.3 0.3 1</ambient>
+          <ambient>0.4 0.7 1 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -2126,12 +2126,29 @@
         </surface>
       </collision>
     </link>
+    <joint name='body_head_JOINT' type='fixed'>
+      <parent>link_5_clone</parent>
+      <child>link_0_1</child>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <physics>
+        <ode>
+          <limit>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </limit>
+          <suspension>
+            <cfm>0</cfm>
+            <erp>0.2</erp>
+          </suspension>
+        </ode>
+      </physics>
+    </joint>
     <joint name='body_leftArm_JOINT' type='revolute'>
       <parent>link_5_clone</parent>
       <child>link_0_clone_1</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <axis>
-        <xyz>0 0 1</xyz>
+        <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
           <lower>-1e+16</lower>
@@ -2164,7 +2181,7 @@
       <child>link_0</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <axis>
-        <xyz>0 0 1</xyz>
+        <xyz>1 0 0</xyz>
         <use_parent_model_frame>0</use_parent_model_frame>
         <limit>
           <lower>-1e+16</lower>
@@ -2547,23 +2564,6 @@
     <joint name='link_2_clone_1_JOINT_7' type='fixed'>
       <parent>link_2_clone_1</parent>
       <child>link_1_clone_2</child>
-      <pose frame=''>0 0 0 0 -0 0</pose>
-      <physics>
-        <ode>
-          <limit>
-            <cfm>0</cfm>
-            <erp>0.2</erp>
-          </limit>
-          <suspension>
-            <cfm>0</cfm>
-            <erp>0.2</erp>
-          </suspension>
-        </ode>
-      </physics>
-    </joint>
-    <joint name='body_head_JOINT' type='fixed'>
-      <parent>link_5_clone</parent>
-      <child>link_0_1</child>
       <pose frame=''>0 0 0 0 -0 0</pose>
       <physics>
         <ode>
