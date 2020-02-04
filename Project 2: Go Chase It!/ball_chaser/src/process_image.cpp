@@ -43,8 +43,8 @@ void process_image_callback(const sensor_msgs::Image img)
 	float turning_velocity = 0.5;
 	
 	// Loop through each pixel in the image until a white one is found
-	for (int i = 0; i < img.height * img.step; i++)	{
-		if (img.data[i] == white_pixel)	{
+	for (int i = 0; i < img.height * img.step; i+=3)	{
+		if (img.data[i] == white_pixel && img.data[i+1] == white_pixel && img.data[i+2] == white_pixel)	{
 			white_spot = i % img.step;
 			break;
 		}
