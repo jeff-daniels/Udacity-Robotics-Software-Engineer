@@ -6,11 +6,11 @@ global_costmap:
   width: 15.0
   height: 15.0
   resolution: 0.01
-	
-	# amcl calls this service to retrieve the map that is used for laser-based 	
-	# localization
+
+  # amcl calls this service to retrieve the map that is used for laser-based 	
+  # localization
   static_map: true
 
-	# Global map centered on robot?  No, it is centered on the static map.
+  # Global map centered on robot?  No, it is centered on the static map.
   rolling_window: false
-  
+

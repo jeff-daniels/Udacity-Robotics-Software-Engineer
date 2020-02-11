@@ -11,28 +11,30 @@ TrajectoryPlannerROS:
   acc_lim_x: 2.0
   acc_lim_y: 2.0
 
-	# The amount of time to forward-simulate trajectories in seconds
+  # The amount of time to forward-simulate trajectories in seconds
   sim_time: 1.0
 
-	# The number of samples to use when exploring the x and theta velocity spaces
+  # The number of samples to use when exploring the x and theta velocity spaces
   vx_samples: 5.0
   vtheta_samples: 10.0
 
-	# The weighing for how much the controller should stay close to the path it was given
+  # The weighing for how much the controller should stay close to the path it 
+  # was given
   pdist_scale: 0.6 # default 0.6, max is 5.0
   
-	# The weighing for how much the controller should should attempt to reach its local goal
-	# Also controls speed
-	gdist_scale: 0.8 # default 0.8, max is 5.0
+  # The weighing for how much the controller should should attempt to reach 
+  # its local goal
+  # Also controls speed
+  gdist_scale: 0.8 # default 0.8, max is 5.0
 
-	# The weighing for how much the controller should avoid obstacles
+  # The weighing for how much the controller should avoid obstacles
   occdist_scale: 0.02 # default: 0.01 
 
-	# Does the robot strafe?  default is true
+  # Does the robot strafe?  default is true
   holonomic_robot: false
 
-	# tldr, Set this to true to suppress warning
-	# Whether the gdist_scale and pdist_scale parameters should assume 
-	# that goal_distance and path_distance are expressed in units of meters or cells. 
-	# Cells are assumed by default.
+  # tldr, Set this to true to suppress warning
+  # Whether the gdist_scale and pdist_scale parameters should assume 
+  # that goal_distance and path_distance are expressed in units of meters or cells. 
+  # Cells are assumed by default.
   meter_scoring: false
