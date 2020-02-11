@@ -37,4 +37,4 @@ TrajectoryPlannerROS:
   # Whether the gdist_scale and pdist_scale parameters should assume 
   # that goal_distance and path_distance are expressed in units of meters or cells. 
   # Cells are assumed by default.
-  meter_scoring: false
+  meter_scoring: true
