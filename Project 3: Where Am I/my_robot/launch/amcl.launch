@@ -12,19 +12,24 @@
 		<param name="base_frame_id" value="robot_footprint"/>
 		<param name="global_frame_id" value="map"/>
 
+		<!-- Tuneable Parameters -->
 		<param name="initial_pose_x" value="0"/>
 		<param name="initial_pose_y" value="8.0"/>
 		<param name="initial_pose_a" value="-1.5707"/>
 		
-		
-    <!-- param name="transform_tolerance" value="0.2"/ -->
+		<!-- Number of Particles -->
     <param name="max_particles" value="50"/>
     <param name="min_particles" value="5"/>
-    <param name="update_min_a" value="0.05"/>
-    <param name="update_min_d" value="0.02"/>    
-    <param name="laser_min_range" value="-1"/>
-    <param name="laser_max_range" value="-1"/>
-    <!-- param name="laser_max_beams" value="50"/ -->
+
+		<!-- Translational (d) and Rotational (a) movement required before performing a filter update -->
+    <param name="update_min_d" value="0.02"/>        
+		<param name="update_min_a" value="0.05"/>
+
+		<!-- Scan range to be considered; -1.0 will use laser's reported range -->
+    <param name="laser_min_range" value="-1.0"/>
+    <param name="laser_max_range" value="-1.0"/>
+
+		<!-- Mixture weight for the z_* part of the model -->
     <param name="laser_z_hit" value="0.95"/>
     <param name="laser_z_rand" value="0.05"/>
 
