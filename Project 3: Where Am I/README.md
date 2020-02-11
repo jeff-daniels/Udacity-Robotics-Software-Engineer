@@ -43,9 +43,13 @@ Final pose, and ready to dine.
 ## Reference
 Documentation for navigating the robot using Adaptive Monte Carlo Localization (amcl) in ROS.  Especially useful for tuning the parameters.
 
-[Navigation Stack](http://wiki.ros.org/navigation/Tutorials/RobotSetup)
-[move_base](http://wiki.ros.org/move_base)
-[amcl parameters](http://wiki.ros.org/amcl#Parameters)
-[costmap](http://wiki.ros.org/costmap_2d/hydro/obstacles)
-[base_local_planner](http://wiki.ros.org/base_local_planner)
+[Navigation Stack](http://wiki.ros.org/navigation/Tutorials/RobotSetup)  
+
+[move_base](http://wiki.ros.org/move_base)  
+
+[amcl parameters](http://wiki.ros.org/amcl#Parameters)  
+
+[costmap](http://wiki.ros.org/costmap_2d/hydro/obstacles)  
+
+[base_local_planner](http://wiki.ros.org/base_local_planner)  
 
