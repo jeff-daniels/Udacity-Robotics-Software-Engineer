@@ -31,3 +31,21 @@ Oh no!  The robot is in peril.  Some more intelligent god-like entity has kidnap
 Deus ex machina!  Some deity has used something called "2D Pose Estimate" to help localize the robot.  Later, the deity changed the global_map update frequency.
 ![](https://github.com/jeff-daniels/Udacity-Robotics-Software-Engineer/blob/master/Project%203:%20Where%20Am%20I/screenshots/Saved%20by%20the%202D%20Pose%20Estimate.png)
 
+Freedom for our intrepid robot.  
+![](https://github.com/jeff-daniels/Udacity-Robotics-Software-Engineer/blob/master/Project%203:%20Where%20Am%20I/screenshots/Escape%20from%20the%20utility%20closet.png)
+
+Maneuvering under the dining table.
+![](https://github.com/jeff-daniels/Udacity-Robotics-Software-Engineer/blob/master/Project%203:%20Where%20Am%20I/screenshots/Maneuvering%20under%20the%20dining%20table.png)
+
+Final pose, and ready to dine.
+![](https://github.com/jeff-daniels/Udacity-Robotics-Software-Engineer/blob/master/Project%203:%20Where%20Am%20I/screenshots/Let%20us%20eat.png)
+
+## Reference
+Documentation for navigating the robot using Adaptive Monte Carlo Localization (amcl) in ROS.  Especially useful for tuning the parameters.
+
+[Navigation Stack](http://wiki.ros.org/navigation/Tutorials/RobotSetup)
+[move_base](http://wiki.ros.org/move_base)
+[amcl parameters](http://wiki.ros.org/amcl#Parameters)
+[costmap](http://wiki.ros.org/costmap_2d/hydro/obstacles)
+[base_local_planner](http://wiki.ros.org/base_local_planner)
+
