@@ -4,12 +4,6 @@
 	<arg name="map_file" default="$(find my_robot)/maps/map.yaml"/>
 	<node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
 
-
-	<!-- Place map frame at odometry frame-->
-	<!--node pkg="tf" type="static_transform_publisher" name="map_odom_broadcaster"
-      args="0 0 0 0 0 0 map odom 100" /-->
-
-	
 	<!-- AMCL Node -->
 	<node name="amcl" pkg="amcl" type="amcl" output="screen">
 		<remap from="scan" to="my_robot/laser/scan"/>
@@ -22,25 +16,21 @@
 		<param name="initial_pose_y" value="8.0"/>
 		<param name="initial_pose_a" value="-1.5707"/>
 		
-		<!-- Tune these values later
-    <param name="transform_tolerance" value="0.2"/>
+		
+    <!-- param name="transform_tolerance" value="0.2"/ -->
     <param name="max_particles" value="50"/>
     <param name="min_particles" value="5"/>
     <param name="update_min_a" value="0.05"/>
     <param name="update_min_d" value="0.02"/>    
-    <param name="laser_min_range" value="0.4"/>
-    <param name="laser_max_range" value="30"/>
-    <param name="laser_max_beams" value="50"/>
+    <param name="laser_min_range" value="-1"/>
+    <param name="laser_max_range" value="-1"/>
+    <!-- param name="laser_max_beams" value="50"/ -->
     <param name="laser_z_hit" value="0.95"/>
     <param name="laser_z_rand" value="0.05"/>
 
-    <param name="use_map_topic" value="false"/>
-    <param name="laser_model_type" value="likelihood_field"/>
-		-->
-
 	</node>
 
-	  <!-- Move Base -->
+	<!-- Move Base -->
   <node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
 		<remap from="scan" to="my_robot/laser/scan"/>
 		<param name="base_global_planner" value="navfn/NavfnROS" />
