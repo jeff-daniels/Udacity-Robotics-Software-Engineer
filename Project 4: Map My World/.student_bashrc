@@ -1,0 +1,5 @@
+export PATH=/usr/bin:$PATH
+source /opt/ros/kinetic/setup.bash
+alias ss="source devel/setup.bash"
+cd /home/workspace/catkin_ws/
+source devel/setup.bash

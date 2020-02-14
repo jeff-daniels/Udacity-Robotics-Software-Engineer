@@ -1,0 +1,15 @@
+local_costmap:
+  global_frame: odom
+  robot_base_frame: robot_footprint
+  update_frequency: 3.0
+  publish_frequency: 3.0
+  width: 10.0
+  height: 10.0
+  resolution: 0.01
+
+  # amcl calls this service to retrieve the map that is used for laser-based 
+  # localization.  Local costmap generates itself from sensor data.
+  static_map: false
+
+  # Global costmap centered on robot?
+  rolling_window: true
