@@ -1,7 +1,6 @@
 #include <ros/ros.h>
 #include <move_base_msgs/MoveBaseAction.h>
 #include <actionlib/client/simple_action_client.h>
-#include <tf/tf.h>
 
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
 
@@ -23,14 +22,14 @@ int main(int argc, char** argv){
   goal.target_pose.header.stamp = ros::Time::now();
 
   // array of goals for the robot 
-	float goals[2][3] = {{-1.0, -1.0, 1.0},{0, 0, 0}};
+	float goals[2][3] = {{-1.0, -1.0, 1.0},{0, 0, 1.0}};
 	
 	for (int i=0; i < sizeof(goals)/sizeof(goals[0]); i++) {
 
 		// define a position and orientation for the robot to reach
 		goal.target_pose.pose.position.x = goals[i][0];
 		goal.target_pose.pose.position.y = goals[i][1];
-  	goal.target_pose.pose.orientation = tf::createQuaternionMsgFromYaw(goals[i][2]);
+  		goal.target_pose.pose.orientation.w = goals[i][2];
   
 		// Send the goal position and orientation for the robot to reach
 		ROS_INFO("Sending goal");
