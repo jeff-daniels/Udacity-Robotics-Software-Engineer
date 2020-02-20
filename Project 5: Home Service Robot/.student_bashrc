@@ -1,0 +1,7 @@
+export PATH=/usr/bin:$PATH
+source /opt/ros/kinetic/setup.bash
+alias ss="source devel/setup.bash"
+git config --global user.email "jeffrey.arthur.daniels@gmail.com"
+git config --global user.name "Jeff"
+cd /home/workspace/catkin_ws/
+source devel/setup.bash
