@@ -28,9 +28,9 @@ int main(int argc, char** argv){
 
 	
 	// define a position and orientation for pickup
-	// Pickup Location x=-1, y=-1, w=1
-	goal.target_pose.pose.position.x = -1;
-	goal.target_pose.pose.position.y = -1;
+	// Pickup Location x= 1, y=-1, w=1
+	goal.target_pose.pose.position.x = 5;
+	goal.target_pose.pose.position.y = 8;
  	goal.target_pose.pose.orientation.w = 1;
 	
 	// Send the goal position and orientation for pickup
@@ -57,7 +57,7 @@ int main(int argc, char** argv){
 		// define a position and orientation for dropoff
 		// Dropoff location x=0, y=0, w=1
 		goal.target_pose.pose.position.x = 0;
-		goal.target_pose.pose.position.y = 0;
+		goal.target_pose.pose.position.y = 8.0;
  		goal.target_pose.pose.orientation.w = 1;
 
 		// Send the goal position and orientation for dropoff
