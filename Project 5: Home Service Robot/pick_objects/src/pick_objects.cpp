@@ -3,6 +3,11 @@
 #include <actionlib/client/simple_action_client.h>
 #include <std_msgs/String.h>
 
+float x_pickup = 2.5;
+float y_pickup = -0.7;
+float x_dropoff = 2.5;
+float y_dropoff = 0.7;
+
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
 
 int main(int argc, char** argv){
@@ -28,9 +33,8 @@ int main(int argc, char** argv){
 
 	
 	// define a position and orientation for pickup
-	// Pickup Location x= 1, y=-1, w=1
-	goal.target_pose.pose.position.x = 5;
-	goal.target_pose.pose.position.y = 8;
+	goal.target_pose.pose.position.x = x_pickup;
+	goal.target_pose.pose.position.y = y_pickup;
  	goal.target_pose.pose.orientation.w = 1;
 	
 	// Send the goal position and orientation for pickup
@@ -55,9 +59,8 @@ int main(int argc, char** argv){
 		ros::Duration(5.0).sleep();
 
 		// define a position and orientation for dropoff
-		// Dropoff location x=0, y=0, w=1
-		goal.target_pose.pose.position.x = 0;
-		goal.target_pose.pose.position.y = 8.0;
+		goal.target_pose.pose.position.x = x_dropoff;
+		goal.target_pose.pose.position.y = y_dropoff;
  		goal.target_pose.pose.orientation.w = 1;
 
 		// Send the goal position and orientation for dropoff
